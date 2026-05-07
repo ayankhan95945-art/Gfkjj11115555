@@ -171,16 +171,7 @@ def logs_command(message):
 # =========================
 # MESSAGE LOGGER
 # =========================
-@bot.message_handler(func=lambda m: True)
-def all_messages(message):
-    user_id = message.chat.id
-    text = message.text
 
-    log = f"[{datetime.datetime.now()}] {user_id}: {text}"
-
-    save_log(log)
-
-    bot.reply_to(message, "Message received ✅")
 
 # =========================
 # START POLLING

@@ -7,7 +7,7 @@ import os
 # =========================
 # BOT TOKEN
 # =========================
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
+BOT_TOKEN = "8661370561:AAGxbnCWCpy8Hj27TibjrCZ3Kju8OZe1bBY"
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
